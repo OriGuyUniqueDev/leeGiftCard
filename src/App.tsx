@@ -1,6 +1,7 @@
 import MainContainer from "./pages/main/MainContainer";
 import DescAndConnect from "./pages/main/components/DescAndConnect";
 import TextBubble from "./pages/main/components/TextBubble";
+import logoSrc from "./assets/logo.png";
 
 export default function App() {
   return (
@@ -8,7 +9,7 @@ export default function App() {
       <TextBubble />
       <DescAndConnect />
       <img
-        src="/logo.png"
+        src={logoSrc}
         alt="Lee Malka Consmetics Logo"
       />
     </MainContainer>
