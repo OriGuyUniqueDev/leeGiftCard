@@ -8,7 +8,7 @@ export default function App() {
       <TextBubble />
       <DescAndConnect />
       <img
-        src="/src/assets/logo.png"
+        src="/logo.png"
         alt="Lee Malka Consmetics Logo"
       />
     </MainContainer>
