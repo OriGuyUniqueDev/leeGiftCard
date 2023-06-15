@@ -1,4 +1,5 @@
 import { FunctionComponent } from "react";
+import giftSrc from "/src/assets/gift.svg";
 
 interface CircleMaskIconProps {}
 
@@ -7,7 +8,7 @@ const CircleMaskIcon: FunctionComponent<CircleMaskIconProps> = () => {
     <div className="rounded-full w-[7.375rem] h-[7.375rem] bottom-40 bg-white absolute  flex items-center justify-center   ">
       <div className="w-[6.375rem] h-[6.375rem] bg-[#C09D9C] rounded-full shadow-xl flex items-center justify-center ">
         <img
-          src="/src/assets/gift.svg"
+          src={giftSrc}
           width="60%"
         />
       </div>
