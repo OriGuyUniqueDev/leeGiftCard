@@ -11,6 +11,7 @@ export default function App() {
       <img
         src={logoSrc}
         alt="Lee Malka Consmetics Logo"
+        width="200rem"
       />
     </MainContainer>
   );
