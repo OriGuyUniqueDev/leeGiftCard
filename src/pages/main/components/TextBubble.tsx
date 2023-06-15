@@ -6,7 +6,7 @@ interface TextBubbleProps {}
 
 const TextBubble: FunctionComponent<TextBubbleProps> = () => {
   return (
-    <div className="bg-white drop-shadow-2xl text-black shadow-black w-11/12 h-52 rounded-2xl mt-36 z-40 flex flex-col items-center justify-center relative">
+    <div className="first  bg-white drop-shadow-2xl text-black shadow-black w-11/12 h-52 rounded-2xl mt-36 z-40 flex flex-col items-center justify-center relative  ">
       <CircleMaskIcon />
       <Greeting />
     </div>

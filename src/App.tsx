@@ -12,6 +12,7 @@ export default function App() {
         src={logoSrc}
         alt="Lee Malka Consmetics Logo"
         width="200rem"
+        className="third"
       />
     </MainContainer>
   );
