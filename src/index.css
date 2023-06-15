@@ -28,3 +28,15 @@ main {
   opacity: 0;
   animation: fadeIn 0.75s 1.5s forwards;
 }
+.fourth {
+  opacity: 0;
+  animation: fadeIn 0.75s 2s forwards;
+}
+.fifth {
+  opacity: 0;
+  animation: fadeIn 0.75s 2.5s forwards;
+}
+.sixth {
+  opacity: 0;
+  animation: fadeIn 0.75s 3s forwards;
+}

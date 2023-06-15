@@ -5,10 +5,10 @@ interface DescAndConnectProps {}
 const DescAndConnect: FunctionComponent<DescAndConnectProps> = () => {
   return (
     <div className="text-center">
-      <p className="text-xl font-medium second">
+      <p className="fifth text-xl font-medium ">
         שובר זה מעניק לך טיפול לק ג’ל מתנה !
       </p>
-      <p className="third">
+      <p className="sixth">
         לקביעת תור דרך הוואטסאפ{" "}
         <a
           className="underline"
